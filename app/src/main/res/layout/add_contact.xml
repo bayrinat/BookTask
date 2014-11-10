@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+    android:clickable="false">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="7dp">
+
+        <TextView
+            android:id="@+id/personalDataTextView"
+            style="@style/ContactLabelTextView"
+            android:text="@string/personal_data"></TextView>
+
+        <EditText
+            android:id="@+id/nameEditText"
+            style="@style/ContactEditText"
+            android:hint="@string/name"></EditText>
+
+        <EditText
+            android:id="@+id/birthdayEditText"
+            style="@style/ContactEditText"
+            android:descendantFocusability="beforeDescendants"
+            android:focusableInTouchMode="true"
+            android:hint="@string/birthday"></EditText>
+
+        <TextView
+            android:id="@+id/genderTextView"
+            style="@style/ContactLabelTextView"
+            android:text="@string/gender"></TextView>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+
+            <RadioGroup
+                android:id="@+id/radioGroup"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:padding="2dp">
+
+                <RadioButton
+                    android:id="@+id/genderMaleRadioButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:text="@string/gender_male" />
+
+                <RadioButton
+                    android:id="@+id/genderFemaleRadioButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/gender_female" />
+            </RadioGroup>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/addressTextView"
+            style="@style/ContactLabelTextView"
+            android:text="@string/address"></TextView>
+
+        <EditText
+            android:id="@+id/phoneEditText"
+            style="@style/ContactEditText"
+            android:hint="@string/phone"
+            android:inputType="phone"></EditText>
+
+        <EditText
+            android:id="@+id/emailEditText"
+            style="@style/ContactEditText"
+            android:hint="@string/email"
+            android:inputType="textEmailAddress"></EditText>
+
+        <Button
+            android:id="@+id/saveContactButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="15dp"
+            android:text="@string/save_contact"></Button>
+
+    </LinearLayout>
+</ScrollView>

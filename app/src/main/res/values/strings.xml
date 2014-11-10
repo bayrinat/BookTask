@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Контакты</string>
+    <string name="app_change">Редактирование</string>
+    <string name="app_contact">Выбранный контакт</string>
+    <string name="add_contact">Добавить</string>
+    <string name="save_contact">Сохранить</string>
+    <string name="edit_contact">Редактировать</string>
+    <string name="delete_contact">Удалить</string>
+    <string name="personal_data">Личные данные</string>
+    <string name="address">Контакты</string>
+    <string name="name">Фамилия Имя Отчество</string>abbreviation
+    <string name="name_abbreviation">ФИО</string>
+    <string name="gender">Пол</string>
+    <string name="gender_male">Мужской</string>
+    <string name="gender_female">Женский</string>
+    <string name="birthday">Дата рождения</string>
+    <string name="email">E-mail</string>
+    <string name="phone">Телефон</string>
+    <string name="label_name">ФИО:</string>
+    <string name="label_birthday">День рождения:</string>
+    <string name="label_gender">Пол:</string>
+    <string name="label_phone">Телефон:</string>
+    <string name="label_email">E-mail:</string>
+    <string name="confirmTitle">Вы уверены?</string>
+    <string name="confirmMessage">
+      Удаление контакта</string>
+    <string name="errorButton">Ok</string>
+    <string name="errorTitle">Некорректные данные</string>
+    <string name="errorNameMessage">Заполните поле с именем</string>
+    <string name="errorBirthdayMessage">Неверная дата рождения</string>
+    <string name="errorPhoneMessage">Неверный телефон</string>
+    <string name="errorEmailMessage">Неверный e-mail</string>
+    <string name="button_cancel">Отмена</string>
+    <string name="button_delete">Удалить</string>
+    <string name="dialog_message">Удалить запись?</string>
+    <string name="fire">Да</string>
+    <string name="cancel">Нет</string>
+</resources>

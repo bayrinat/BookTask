@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/editItem"
+        android:alphabeticShortcut="e"
+        android:icon="@android:drawable/ic_menu_edit"
+        android:showAsAction="ifRoom"
+        android:title="@string/edit_contact"
+        android:titleCondensed="@string/edit_contact"/>
+    <item
+        android:id="@+id/deleteItem"
+        android:alphabeticShortcut="d"
+        android:icon="@android:drawable/ic_delete"
+        android:showAsAction="ifRoom"
+        android:title="@string/delete_contact"
+        android:titleCondensed="@string/delete_contact"/>
+</menu>
